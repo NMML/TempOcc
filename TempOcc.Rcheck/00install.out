@@ -1,0 +1,8 @@
+* installing *source* package 'TempOcc' ...
+** Creating default NAMESPACE file
+** R
+Error in .install_package_code_files(".", instdir) : 
+files in 'Collate' field missing from 'C:/Users/paul.conn/git/TempOcc/TempOcc/R':
+  post_predict.R
+ERROR: unable to collate and parse R files for package 'TempOcc'
+* removing 'C:/Users/paul.conn/git/TempOcc/TempOcc.Rcheck/TempOcc'

@@ -1,0 +1,17 @@
+Package: TempOcc
+Maintainer: Paul B Conn <paul.conn@noaa.gov>
+License: Unlimited
+Title: Functions for performing temporal occupancy analysis
+Type: Package
+LazyLoad: yes
+Author: P.B. Conn
+Description: Functions needed for performing haul-out analysis for
+    Bering seals, and generally conducting temporal occupancy analyses
+    when data consist of known occupancy, known non-occupancy, and
+    missing data (with data possibly not missing-at-random)
+Version: 1.0
+Depends: truncnorm (>= 1.0-4), MASS (>= 7.3), date (>= 1.2), ggplot2
+    (>= 0.8), Matrix (>= 0.999375-46), coda (>= 0.1)
+Date: 2011-07-07
+Collate: 'analyze_temp_occ_probit.R' 'CAR_funcs.R' 'plot_temp_occ.R'
+    'post_predict.R' 'sim_data_probit.R'

@@ -1,0 +1,17 @@
+* using log directory 'C:/Users/paul.conn/git/TempOcc/TempOcc.Rcheck'
+* using R version 2.14.0 (2011-10-31)
+* using platform: x86_64-pc-mingw32 (64-bit)
+* using session charset: ISO8859-1
+* checking for file 'TempOcc/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'TempOcc' version '1.0'
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... NOTE
+As from R 2.14.0 all packages need a namespace.
+One will be generated on installation, but it is better to handcraft a
+NAMESPACE file: R CMD build will produce a suitable starting point.
+* checking for executable files ... OK
+* checking whether package 'TempOcc' can be installed ... ERROR
+Installation failed.
+See 'C:/Users/paul.conn/git/TempOcc/TempOcc.Rcheck/00install.out' for details.
