@@ -1,17 +1,50 @@
 * using log directory 'C:/Users/paul.conn/git/TempOcc/TempOcc.Rcheck'
-* using R version 2.14.0 (2011-10-31)
+* using R version 2.14.1 (2011-12-22)
 * using platform: x86_64-pc-mingw32 (64-bit)
 * using session charset: ISO8859-1
 * checking for file 'TempOcc/DESCRIPTION' ... OK
 * checking extension type ... Package
 * this is package 'TempOcc' version '1.0'
+* checking package namespace information ... OK
 * checking package dependencies ... OK
 * checking if this is a source package ... OK
-* checking if there is a namespace ... NOTE
-As from R 2.14.0 all packages need a namespace.
-One will be generated on installation, but it is better to handcraft a
-NAMESPACE file: R CMD build will produce a suitable starting point.
-* checking for executable files ... OK
-* checking whether package 'TempOcc' can be installed ... ERROR
-Installation failed.
-See 'C:/Users/paul.conn/git/TempOcc/TempOcc.Rcheck/00install.out' for details.
+* checking if there is a namespace ... OK
+* checking for .dll and .exe files ... OK
+* checking whether package 'TempOcc' can be installed ... OK
+* checking package directory ... OK
+* checking for portable file names ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking index information ... OK
+* checking package subdirectories ... WARNING
+Subdirectory 'data' contains no data sets.
+Subdirectory 'inst' contains no files.
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking for unstated dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+plot_temp_occ: no visible binding for global variable 'H'
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking examples ... OK
+* checking PDF version of manual ... OK
+WARNING: There was 1 warning, see
+  'C:/Users/paul.conn/git/TempOcc/TempOcc.Rcheck/00check.log'
+for details

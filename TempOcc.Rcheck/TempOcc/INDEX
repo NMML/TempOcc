@@ -1,0 +1,12 @@
+analyze_temp_occ_probit
+                        Main function for running MCMC simulations for
+                        temporal occupancy analysis
+expit                   Inverse logit function
+get_Q_1indiv            Formulate an RW1 Q matrix (precision matrix =
+                        tau*Q) for one individual
+get_Q_1indiv_RW2        Formulate an RW2 Q matrix (precision matrix =
+                        tau*Q) for one individual
+plot_temp_occ           Plot temporal occupancy data for inidivual
+                        "sites" using ggplot2
+rrw                     Simulate an ICAR Process
+sim_data_probit         Simulate temporal occupancy data

@@ -10,16 +10,9 @@ Description: Functions needed for performing haul-out analysis for
     when data consist of known occupancy, known non-occupancy, and
     missing data (with data possibly not missing-at-random)
 Version: 1.0
-Depends:
-    truncnorm (>= 1.0-4),
-    MASS (>= 7.3),
-    date (>= 1.2),
-    ggplot2 (>= 0.1),
-    Matrix (>= 0.999375-46),
-    coda (>= 0.1),
+Depends: truncnorm (>= 1.0-4), MASS (>= 7.3), date (>= 1.2), ggplot2
+        (>= 0.1), Matrix (>= 0.999375-46), coda (>= 0.1),
 Date: 2011-01-26
-Collate:
-    'analyze_temp_occ_probit.R'
-    'CAR_funcs.R'
-    'plot_temp_occ.R'
-    'sim_data_probit.R'
+Collate: 'analyze_temp_occ_probit.R' 'CAR_funcs.R' 'plot_temp_occ.R'
+        'sim_data_probit.R'
+Built: R 2.14.1; ; 2012-02-24 19:30:31 UTC; windows
